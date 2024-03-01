@@ -1,0 +1,281 @@
+.table {
+    /* margin-top: 150px; */
+    /* margin-left: 320px; */
+    width: 700px;
+    margin-bottom: 0px;
+    height: 500px;
+    font-size: 14px;
+}
+
+.table-div {
+    /* width: 855px; */
+    width: 822px;
+    margin: auto;
+    height: 500px;
+
+    overflow-y: scroll;
+    margin-bottom: 0px;
+    /* margin-top: 110px; */
+    position: relative;
+    left: 40px;
+    top: 105px;
+    /* border-top: 5px solid black; */
+}
+
+/* width */
+.table-div::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.table-div::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+.table-div::-webkit-scrollbar-thumb {
+    background: rgb(138, 133, 133);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.table-div::-webkit-scrollbar-thumb:hover {
+    background: rgb(104, 97, 97);
+}
+
+.title-clr {
+    background-color: gray;
+}
+
+.head {
+    margin-top: 10px;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+#add {
+    position: absolute;
+    top: 940px;
+    left: 620px;
+    font-size: 40px;
+    background-color: lightgrey;
+    border: none;
+    font-weight: bold;
+    color: blue;
+}
+
+.first {
+    background-image: url(../images/lap1.jpg);
+
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 105% 100%;
+    height: 1200px;
+
+}
+
+.one {
+    position: relative;
+    /* top: 180px; */
+    height: 100%;
+
+}
+
+th {
+    font-size: 20px;
+}
+
+.forms1 {
+
+    position: relative;
+    bottom: 570px;
+    left: 60px;
+
+}
+
+#editbutton {
+    margin-left: 220px;
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+}
+
+#data {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#labels {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 3px;
+}
+
+#databtn {
+    margin-left: 100px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.edits {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+#sign {
+    text-align: center;
+    font-weight: bold;
+    color: yellow;
+    margin-top: 10px;
+}
+
+.about {
+    background-image: url(../images/bg3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+}
+
+#labels1 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 3px;
+}
+
+#quote1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+            #e1dbf7 0%,
+            #b67df3 29%,
+            #d3a4b3 67%,
+            #aaa981 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* text-fill-color: transparent; */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+
+}
+
+#quote3 {
+    font-weight: bold;
+    color: rgb(3, 27, 94);
+}
+
+
+.row {
+    display: flex;
+
+
+}
+
+ul {
+    list-style: none;
+    padding-left: 0 !important;
+}
+
+.footer {
+    background-color: #24262b;
+    padding: 70px 0;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+.footer1 {
+    display: flex;
+
+    flex-direction: column;
+}
+
+.last {
+    height: 250px;
+    padding: 20px;
+
+}
+
+#company {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.rozha-one-regular {
+    font-family: "Rozha One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
